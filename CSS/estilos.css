@@ -1,4 +1,10 @@
-/* Estilos del header */
+
+/* Estilos body */
+body{
+    background-color: beige;
+}
+
+/* Posicionamiento del header */
 header {
     position: relative;
     background-color:rgb(0, 140, 255);
@@ -58,11 +64,6 @@ header {
     bottom: 5px;
 }
 
-/* Estilos body */
-body{
-    background-color: beige;
-}
-
 /* Estilos sección imágenes principales */
 
 #idCrea{
@@ -95,10 +96,34 @@ table, td, th{
     width: 100%;
 }
 
+/* Section iconos catálogo */
+
+#cajasIconosCatalogoPadre{
+    background-color: lightgrey;
+    border-radius: 20px;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+}
+
 /* Estilos de la clase iconosCatalogo*/
 .iconosCatalogo{
-    border-radius: 20px;
+    border-radius: 20px; 
+    width: 100px ; 
+    height: 100px;
+    border: 2px;
+    margin-top: 10px;
 }
+
+/* Posicionamiento iconos catálogo */
+
+.cajasIconosCatalogo{
+    width: 150px;
+    height: 170px;
+    margin: 10px;
+    text-align: center;
+}
+
 
 /* Estilos del footer*/
 
@@ -120,9 +145,11 @@ footer{
 /* Caja registro de empresa */
 #cajaregistro{
     position: relative;
-    left: 1400px;
+    left: 1325px;
     align-content: center;
 }
+
+
 
 
 
