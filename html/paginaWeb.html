@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/estilos.css">
+    <!-- Añadimos el logotipo como -->
+    <link rel="shortcut icon" href=../imagenes/logotipo.webp type="image/x-icon">
+    <title>Ferrobest</title>
+</head>
+<body>
+
+    <header>
+        <!-- Caja con el logo y dirección de la empresa -->
+        <div id="cajaempresa">
+
+            <!-- Imagen logo de empresa --> 
+            <img src="../imagenes/logotipo.webp" alt="Logotipo de la empresa" id="logoEmpresa">
+
+            <!-- Caja dirección -->
+            <div id="cajadireccion">
+                <p>Puede encontrarnos en: </p>
+                <p>Calle Melancolía 7</p>
+            </div>
+        </div>
+        
+        <!-- Caja h1 -->
+        <div id="cajah1">
+            <h1>Tu ferretería de confianza </h1>
+        </div>
+
+        <!-- Caja formulario -->
+        <div id="cajabuscador">
+            <label for="buscador"></label>
+            <input type="search" name="buscar" id="buscar" placeholder="¿ Qué estás buscando?" class="boton">
+            <input type="submit" value="Buscar" class="boton">
+        </div>
+
+    </header>
+
+    <section>
+
+        <div>
+            <p><span id ="idCrea">Crea un hogar </span> 
+                
+                <span id ="idRepara">Repara tú mismo</span> 
+                
+                <Span id ="idDisfruta">Disfruta</Span></p>
+        
+        </div>
+        
+        <img src="../imagenes/parejaReforma.png" alt="Pareja reformando casa" width="500" style="margin-right: 5%; margin-left: 5%;">
+    
+        <img src="../imagenes/mujerArreglaSilla.png" alt="Mujer arreglando silla" style="margin-right: 5%;">
+    
+        <img src="../imagenes/chimeneaDisfruta.png" alt="Pies calentados en chimenea">
+
+    </section>
+
+    <br><br>
+    <h2>Nuestros productos</h2>
+
+    <table>
+        <!--Primera fila. Usamos la etiqueta th para poner cabecera de tabla-->
+        <tr>
+            <th>Catálogo</th>  
+        </tr>
+        <!--Segunda fila-->
+        <tr>
+            <td>Herramientas oficios</td>
+        </tr>
+
+        <!--Tercera fila-->
+        <tr>
+            <td>Herramientas eléctricas</td>
+        </tr>
+
+        <!--Cuarta fila-->
+        <tr>
+            <td>Materiales de construcción</td>
+        </tr>
+    
+        <!--Quinta fila-->
+        <tr>
+            <td>Madera</td>
+        </tr>   
+
+        <!--Sexta fila-->
+        <tr>
+            <td>Tornillería</td>
+        </tr>   
+    </table>
+
+    <br><br><br>
+
+    <!-- Añadimos una imagen que al pulsar nos lleva a la sección de cerámica-->
+    
+    <a href="https://www.lacasadelosazulejos.com/producto/serie-zelij/" target="_blank">
+        <img src="../imagenes/azulejo.jpg" alt="Sección de cerámica" width="100" height="100" style="border: 2;" class="iconosCatalogo">
+        <p>Cerámica</p>
+    </a>
+    
+    <h2>Nuestros servicios</h2>
+
+    <table>
+        <!--Primera fila. Usamos la etiqueta th para poner cabecera de tabla-->
+        <tr>
+            <th>Servicios</th>
+        </tr>
+        <!--Segunda fila-->
+        <tr>
+            <td>Albañilería</td>
+        </tr>
+        <!--Tercera fila-->
+        <tr>
+            <td>Carpintería</td>
+        </tr>
+        <!--Cuarta fila-->
+        <tr>
+            <td>Electricidad</td>
+        </tr>
+        <!--Quinta fila-->
+        <tr>
+            <td>Diseño de interiores</td>
+        </tr>
+        <!--Sexta fila-->
+        <tr>
+            <td>Asesoramiento</td>
+        </tr>
+    </table>
+
+    <br><br><br>
+    
+    <h3>Nuestras marcas</h3>
+    
+    <br><br>
+    <!--Añadimos imágenes de logos uno detrás de otro-->
+    <img src="../imagenes/logoBosch1.png" alt="Logo Bosh" width="150" style="margin-right: 2%; margin-left:2%" >
+    <img src="../imagenes/DeWaltLogo.png" alt="Logo Dewalt" width="150" style="margin-right: 2%;">
+    <img src="../imagenes/makita.png" alt="Logo Makita" width="150" style="margin-bottom: 1%; margin-right: 2%;">
+    <img src="../imagenes/logoBlack&Decker.png" alt="Logo Black and Decker" width="130">
+
+    <br><br><br> 
+
+    <footer>
+        <div id="cajaresponsabletienda"> 
+            <p>Responsable: José Luis Gotera</p>
+        </div>
+
+        <!-- Caja del formulario para el registro de empresas -->
+        <div id="cajaregistro">
+
+            <label for="registro">Resgistre su empresa con nosotros: </label>
+            <a href="formularioResgistroEmpresa.html"><button class="boton">Registrarse</button></a>
+
+        </div>
+    </footer>
+    
+</body>
+</html>
